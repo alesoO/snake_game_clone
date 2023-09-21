@@ -1,0 +1,22 @@
+{
+  "name": "snake_game_clone",
+  "version": "1.0.0",
+  "description": "If the snake goes out of the boundary or eats its own body the game will be over.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alesoO/snake_game_clone.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alesoO/snake_game_clone/issues"
+  },
+  "homepage": "https://github.com/alesoO/snake_game_clone#readme",
+  "devDependencies": {
+    "sass": "^1.68.0"
+  }
+}
