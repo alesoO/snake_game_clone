@@ -1,1 +1,46 @@
 @use 'var';
+@use 'reset';
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: var.$background;
+}
+
+.wrapper {
+    width: 65vmin;
+    height: 70vmin;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    border-radius: 5px;
+    background: var.$gameHeader;
+}
+.game-details{
+    color: var.$gameText;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 20px 27px;
+    display: flex;
+    justify-content: space-between;
+}
+.play-board{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+    background: var.$gameBoard;
+    .food{
+        background: var.$gameFoodColor;
+    }
+    .snake-head{
+        background: var.$gameSnakeColor;
+    }
+}
+

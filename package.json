@@ -19,8 +19,11 @@
   },
   "homepage": "https://github.com/alesoO/snake_game_clone#readme",
   "devDependencies": {
+    "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
     "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
     "sass": "^1.68.0"
   }
 }
